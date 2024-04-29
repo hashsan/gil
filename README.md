@@ -8,6 +8,31 @@ import "https://hashsan.github.io/gil/gil.js";
 
 ```
 
+```js
+
+import "https://hashsan.github.io/gil/gil.js";
+
+//need min-height
+const edit = document.querySelector('#edit')
+const view = document.querySelector('#view')
+
+edit.style.display='none'
+view.onclick = ()=>{
+  //console.log('view.onclick')
+  view.style.display='none';
+  edit.style.display='block';
+  edit.focus();
+}
+edit.onblur =()=>{
+  //console.log('edit.onblur')  
+  view.style.display='block';
+  edit.style.display='none';
+  view.innerHTML= gil(edit.innerHTML) 
+}
+
+```
+
+
 ```
 //ジルのインターフェイス
 const html = gil(temp);
