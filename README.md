@@ -1,15 +1,20 @@
 # gil
 nihongo parser
 
-```ジルのインターフェイス、あるいは仕組み
+```ジルのインターフェイス
 const html = gil(temp);
+```
+
+```仕組み
 
 function gil(temp){
   const html = temp.trim().split('\n').map(parse).join('\n')
   return html;
 }
 
+window.gil = gil;
 ```
+
 ```
 ジルの仕様
 
