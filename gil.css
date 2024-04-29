@@ -20,10 +20,3 @@ h1>a{
   text-decoration:unset;
   color:inherit;  
 }
-
-body{
-  margin:auto;
-  max-width:500px;
-  padding:0 1rem;
-  box-sizing:border-box;  
-}
