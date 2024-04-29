@@ -1,11 +1,13 @@
 # gil
 nihongo parser
 
-```ジルのインターフェイス
+```
+//ジルのインターフェイス
 const html = gil(temp);
 ```
 
-```仕組み
+```
+//仕組み
 
 function gil(temp){
   const html = temp.trim().split('\n').map(parse).join('\n')
@@ -16,7 +18,7 @@ window.gil = gil;
 ```
 
 ```
-ジルの仕様
+//ジルの仕様
 
 ＃＠は、サイトタイトルを示す -----> <h1><a>...</a></h1>
 ＃は、記事タイトルを示す ---------> <h2>...</h2>
