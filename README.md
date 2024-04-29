@@ -1,5 +1,12 @@
 # gil
 nihongo parser
+```css
+/*
+import "https://hashsan.github.io/gil/gil.js";
+*/
+@import url("https://hashsan.github.io/gil/gil.css");
+
+```
 
 ```
 //ジルのインターフェイス
