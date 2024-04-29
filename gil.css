@@ -1,0 +1,29 @@
+/*
+so small
+*/
+
+html{
+  font-size:18px;
+  line-height:1.8;
+}
+h1,h2,h3,h4,h5{
+  font-size:1.4rem;
+  margin:0;
+}
+p{
+  margin:0;
+}
+span>a{
+  text-decoration:unset;
+}
+h1>a{
+  text-decoration:unset;
+  color:inherit;  
+}
+
+body{
+  margin:auto;
+  max-width:500px;
+  padding:0 1rem;
+  box-sizing:border-box;  
+}
